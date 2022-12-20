@@ -1,0 +1,412 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*----ADMIN--------*/
+.admin{
+  border:1px solid grey;
+  padding:10px;
+  margin:10px;
+  border-radius:5px;
+  width:90%;
+  margin-left:50px;;
+}
+.admin img{
+  height:50px;
+  width:50px;
+}
+.admin h5{
+    margin-top:-50px;
+    margin-left:100px;
+}
+.admin p{
+  margin-left:100px;
+}
+.admin i{
+  float:right;
+  margin-top:-8px;
+  font-size: 12px;
+}
+
+
+.adminLogout{
+  float:right;
+  margin-top:-20px;
+}
+
+
+/*------DASHBOARD-----*/
+.logout img{
+  width:50px;
+  height:50px;
+  margin-top :5px;
+  
+}
+.logout div{
+  margin-left:68%;
+}
+
+.createPost {
+  border:1px dotted grey;
+  width:60%;
+  height:600px;
+  margin:25px;
+  padding:25px;
+  border-radius:10px;
+}
+
+.createPost input[type=text]{
+    height:30px;
+    width:300px;
+    border-radius:5px;
+    border:1px solid grey;
+}
+
+.createPost textarea{
+  height:250px;
+  width:300px;
+  border-radius:5px;
+  border:1px solid grey;
+  margin-left:18px;
+}
+
+h4{
+  text-align: center;
+}
+
+.createPost input[type=submit], input[type=submit]{
+        float:right;
+        margin-right:50px;
+        border-radius:5px;
+        background-color: rgb(37, 37, 228);
+        padding:10px;
+        border:1px solid blue;
+        color:aliceblue;
+}
+.createPost input[type=submit]:hover{
+  background-color:blue;
+  cursor: pointer;
+}
+
+
+
+
+/*-------------VIEW POSTS -------------*/
+.viewPost div{
+  border:1px dotted grey;
+  width:75%;
+  height:80px;
+  margin:10px;
+  padding:20px;
+  border-radius: 5px;
+}
+.viewPost div img{
+    width:80px;
+    height:80px;
+}
+
+.viewPost div h5{
+  float : right;
+  font-size:18px;
+  margin-right:500px;
+  margin-top:-8px;
+  font-family: sans-serif;
+}
+
+.viewPost div i{
+  float : right;
+  margin-right:280px;
+  margin-top:-80px;
+  font-family: sans-serif;
+  font-size:10px;
+}
+
+.viewPost div p{
+  font-size:18px;
+  margin-left:120px;
+  margin-top:-30px;
+  font-family:serif;
+  font-weight: lighter;
+}
+
+.viewPost div .commentIcon{
+  float:right;
+    height:35px;
+    width:35px;
+    margin-top:-80px;
+}
+
+
+.id{
+  position:relative;
+  top:150px;
+  right:600px;
+}
+
+
+
+
+
+.active{
+  padding:10px;
+  background-color:rgb(7, 141, 7);
+  color:aliceblue;
+  border:none;
+  border-radius:5px;
+  font-family:serif;
+  float:right;
+  margin-top:-40px;
+  margin-right:40px;
+  height:35px;
+}
+
+.active b{
+  color:aliceblue;
+}
+
+/*--------COMMENTS------*/
+.viewComments div{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 0px;
+  float:right;
+  width:400px;
+  height:80px;
+  border:1px dotted aqua;
+  background-color: rgb(201, 255, 237);
+  padding:10px;
+  margin:10px;
+}
+
+
+
+.viewComments i{
+  font-size: 10px;
+  float:right;
+  margin-right:10px;
+  margin-top:-10px;
+}
+
+.viewComments h5{
+  margin-top:-15px;
+  margin-left:30px;
+}
+
+.viewComments img{
+  width:15px;
+  height:15px;
+}
+
+/*----LOGOUT-----*/
+.logout button{
+  float:right;
+  margin-right: 25px;
+  margin-top:-50px;
+}
+
+/*---LOGIN,REGISTER PAGE BUTTOnS-----*/
+b{
+  margin-left:320px;
+  font-family: serif;
+}
+button{
+  margin-left:240px;
+  font-family: sans-serif;
+  padding:10px;
+  margin-top:10px;
+  width:150px;
+  background-color:rgb(62, 62, 230);
+  color:aliceblue;
+  border: none;
+  border-radius:5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+
+
+
+h2 {
+  text-align: center;
+  color: orangered;
+  text-shadow: 2px -2px 2px orange;
+}
+h1 {
+  text-align: center;
+  color: red;
+  margin-bottom: 100px;
+  text-shadow: 2px -2px 2px orangered;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+/*----REGISTRATION PAGE-----*/
+
+.registerForm form {
+  border: 1px solid black;
+  width: 50%;
+  height: 550px;
+  margin-left: 300px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding-top: 20px;
+  box-shadow: 0px -5px 10px 0px black;
+  /* background-image: url('https://cdn.dribbble.com/users/751212/screenshots/2510592/registerflow_v1r1.gif'); */
+}
+
+/*----LOGIN PAGE-----*/
+
+.loginForm form {
+  border: 1px solid black;
+  width: 50%;
+  height: 550px;
+  margin-left: 300px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding-top: 20px;
+  box-shadow: 0px -5px 10px 0px black;
+  /* background-image: url('https://img.freepik.com/premium-vector/vector-abstract-digital-technology-background-with-concept-security-login_178863-212.jpg'); */
+}
+
+/*----REGISTRATION PAGE LABEL-----*/
+.registerForm form label {
+  margin-left: 120px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+}
+
+/*----LOGIN PAGE LABEL-----*/
+
+.loginForm form label {
+  margin-left: 120px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+}
+
+/*----REGISTRATION PAGE INPUT BOX-----*/
+
+.registerForm form input {
+  width: 260px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+/*----LOGIN PAGE INPUT BOX-----*/
+
+.loginForm form input {
+  width: 260px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+/*----REGISTRATION PAGE SUBMIT BUTTON-----*/
+
+.registerForm form input[type='submit'] {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  font-family: sans-serif;
+  border: none;
+  float: right;
+  margin-right: 120px;
+}
+
+
+/*----LOGIN PAGE SUBMIT BUTTON-----*/
+
+.loginForm form input[type='submit'] {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  font-family: sans-serif;
+  border: none;
+  float: right;
+  margin-right: 120px;
+}
+
+
+.registerForm form input[type='submit']:hover {
+  font-family: sans-serif;
+  background-color: rgb(233, 83, 83);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.loginForm form input[type='submit']:hover {
+  font-family: sans-serif;
+  background-color: rgb(38, 139, 38);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+/*---HEADER (HOME)------*/
+
+.header {
+  background-color: rgb(92, 190, 158);
+  border-radius: 5px;
+  height: 70px;
+  box-shadow: 0px 5px 5px grey;
+}
+
+.header button {
+  float: right;
+  padding: 10px;
+  margin: 15px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 50px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.header button:hover {
+  background: linear-gradient(to left, orange, orangered);
+}
+
+/*---HOME IMAGE----*/
+
+.homeImage {
+  width: 750px;
+  height: 422px;
+  margin-top: 150px;
+  margin-left: 25px;
+  background-image: url('https://miro.medium.com/max/750/1*0OSIgxuJvHeWIwMrBTHvXg.jpeg');
+  border-radius: 10px;
+}
+
+.welcome {
+  float: right;
+  margin-top: -350px;
+  margin-right: 50px;
+}
+
+.welcome h3 {
+  font-family: cursive;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.welcome h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
