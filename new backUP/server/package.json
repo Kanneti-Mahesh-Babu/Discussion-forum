@@ -1,0 +1,25 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "server nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Mahesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
